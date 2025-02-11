@@ -20,6 +20,17 @@ public class ChuyenDe {
     public ChuyenDe() {
     }
 
+    public ChuyenDe(String MaCD, String TenCD, Double HocPhi, int ThoiLuong, String Hinh, String MoTa) {
+        this.MaCD = MaCD;
+        this.TenCD = TenCD;
+        this.HocPhi = HocPhi;
+        this.ThoiLuong = ThoiLuong;
+        this.Hinh = Hinh;
+        this.MoTa = MoTa;
+    }
+    
+    
+
     public String getMaCD() {
         return MaCD;
     }
